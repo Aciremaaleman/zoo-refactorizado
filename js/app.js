@@ -83,6 +83,8 @@ function applyFilter() {
 
 function changeFilter(type) {
   var imagenesACambiar = document.getElementsByTagName("img");
+  // aqui no puedo hacer imagenesACambiar.forEach
+  //por que?
   for (var i = 0; i < imagenesACambiar.length; i++) {
     imagenesACambiar[i].className = type;
   }
