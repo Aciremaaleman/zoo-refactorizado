@@ -1,0 +1,16 @@
+.contenedor-imagenes {
+  display: inline-block;
+  width: 30%;
+}
+
+.sin-filtro {
+  filter: none;
+}
+
+.gray {
+  filter: invert(100%);
+}
+
+.sepia {
+  filter: sepia(100%);
+}
